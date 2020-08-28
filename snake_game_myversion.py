@@ -22,7 +22,7 @@ pinkColor = pg.Color(255, 182, 193)
 blackColor = pg.Color(0, 0, 0)
 whiteColor = pg.Color(255, 255, 255)
 snake_body = [[320, 360], [300, 360], [280, 360], [260, 360], [240, 360]]
-# keyboard listener（to store a direction)
+# keyboard listener（to determine if a direction is a valid move)
 listener_direction = right_direction
 
 
